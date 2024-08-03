@@ -5,12 +5,13 @@ import Footer from './component/Footer.jsx'
 import Index from './component/Index.jsx'
 import './App.css'
 import Hiw from './component/Hiw.jsx'
+import WhyWe from './component/WhyWe.jsx'
 
 function App() {
   //Code to block DevTools
   document.addEventListener("contextmenu", function (event) {
     event.preventDefault();
-    alert("You are not allowed to inspect");
+    // alert("Something went wrong try again later");
   });
 
   document.addEventListener("keydown", function (event) {
@@ -20,7 +21,7 @@ function App() {
       (event.ctrlKey && event.shiftKey && event.key === "I")
     ) {
       event.preventDefault();
-      alert("Wtf can't you understand in once");
+      // alert("Something went wrong try again later");
     }
   });
   return (
@@ -28,6 +29,7 @@ function App() {
       <Navbar />
       <Index />
       <Projects />
+      <WhyWe />
       <Hiw />
       <Faq />
       <Footer />

@@ -1,4 +1,10 @@
 function Faq() {
+    let scrolltop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
     return (
         <>
             <div className="faqs">
@@ -28,7 +34,7 @@ function Faq() {
                 </div>
             </div>
             <div className="tonextslide">
-                <button className="tns_button"><img className="tns_img" src="./images/button.png" alt="<button>next</button>" /></button>
+                <button onClick={scrolltop} className="tns_button"><img className="tns_img" src="./images/button.png" alt="<button>next</button>" /></button>
             </div>
         </>
     )

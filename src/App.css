@@ -409,8 +409,76 @@ body {
   gap: 20px;
   margin-bottom: 60px;
 }
-.bb_button{
+
+.bb_button {
   padding: 18px 24px;
+}
+
+.whywe {
+  margin: 40px auto;
+}
+
+.ww_container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.wwc_left {
+  width: 38%;
+  padding: 0 20px;
+}
+
+.wwcl_component {
+  height: 25%;
+}
+
+.wwcl_heading {
+  font-size: 32px;
+  color: #1d1c1c;
+}
+
+.wwcl_desc {
+  font-size: 18px;
+  color: var(--font-color);
+}
+
+.wwc_right {
+  width: 38%;
+  display: flex;
+  background-color: #dedede;
+  padding: 10px;
+  border-radius: 16px;
+  gap: 20px;
+}
+
+.wwcrr_button {
+  border: none;
+  background-color: #1d1c1c;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 7px 0;
+  font-size: 24px;
+}
+
+.wwb_span {
+  font-size: 16px;
+  color: #b0b1b6;
+}
+
+.wwcrl_img {
+  width: 100%;
+  border: 1px solid var(--font-color);
+  border-radius: 16px;
+}
+
+.wwcrr_img {
+  border: 1px solid var(--font-color);
+  border-radius: 16px;
 }
 
 /* Footer Begin */
